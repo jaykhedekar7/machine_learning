@@ -5,7 +5,7 @@ Created on Fri Jul 26 22:09:36 2019
 quandl key:
 @author: jay
 """
-#First Project
+#First Project completed
 import pandas as pd
 import numpy as np
 import sklearn
