@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 Created on Fri Jul 26 22:09:36 2019
-quandl key: Mhy8p_3pCoqs2o7cGuF
+quandl key: 
 @author: jay
 """
 
@@ -16,7 +16,7 @@ import matplotlib.pyplot as plt
 import quandl
 import math
 
-quandl.ApiConfig.api_key = 'Mhy8p_3pCoqs2o7cGuF-'
+quandl.ApiConfig.api_key = ''
 df = quandl.get('WIKI/GOOGL')
 #print(df.head())
 
