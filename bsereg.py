@@ -10,7 +10,7 @@ from sklearn.linear_model import LinearRegression
 import quandl
 import math, datetime
 
-df = quandl.get("BSE/BOM539678", authtoken="Mhy8p_3pCoqs2o7cGuF-")
+df = quandl.get("BSE/BOM539678", authtoken="")
 
 df = df[['Spread H-L', 'Spread C-O', 'Close', 'Open']]
 
