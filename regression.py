@@ -1,11 +1,10 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""
+"""`
 Created on Fri Jul 26 22:09:36 2019
 quandl key:
 @author: jay
 """
-
 import pandas as pd
 import numpy as np
 import sklearn
