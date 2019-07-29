@@ -10,8 +10,8 @@ from sklearn.linear_model import LinearRegression
 import quandl
 import math, datetime
 
-df = quandl.get("BSE/BOM539678", authtoken="Mhy8p_3pCoqs2o7cGuF-")
-df = df[['Spread H-L', 'Spread C-O', 'Close', 'Open']]
+df = quandl.get("BSE/BOM500878", authtoken="Mhy8p_3pCoqs2o7cGuF-")
+df = df[['High', 'Close', 'Open']]
 
 forecast_column = 'Close'
 df.fillna(-99999, inplace=True)
